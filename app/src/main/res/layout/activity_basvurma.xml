@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basvuruwallpaper"
+    tools:context=".Basvurma">
+
+    <EditText
+        android:id="@+id/basvuraramatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="İlan Başlığı Giriniz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/secimekrani_button2"
+        android:onClick="basvurmakicinara"
+        android:layout_marginTop="37dp"
+        android:text="Başvurmak İçin İlan Ara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basvuraramatext" />
+
+    <TextView
+        android:id="@+id/basvurbaslıktext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="272dp"
+        android:onClick="basvur"
+        android:layout_marginBottom="11dp"
+        android:gravity="clip_horizontal|clip_vertical|center_horizontal|center_vertical"
+        android:text="İlan Başlığı"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/basvurfirmatext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/basvurkritertext"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="basvur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basvurfirmatext" />
+
+    <TextView
+        android:id="@+id/basvurfirmatext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="220dp"
+        android:gravity="clip_horizontal|clip_vertical|center_horizontal|center_vertical"
+        android:text="Firma İsmi"
+        android:textSize="25dp"
+        android:onClick="basvur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basvurbaslıktext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

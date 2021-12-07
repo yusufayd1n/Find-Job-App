@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uyeolwallpaper"
+    tools:context=".UyeOl">
+
+    <EditText
+        android:id="@+id/uyeolisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:drawableStart="@drawable/ic_article"
+        android:drawableTint="#DD0D0D"
+        android:ems="10"
+        android:hint="İsim"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/uyeolemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableTint="#DD0D0D"
+        android:ems="10"
+        android:hint="Mail Adresi"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="@+id/uyeolsoyisim"
+        app:layout_constraintTop_toBottomOf="@+id/uyeolsoyisim" />
+
+    <EditText
+        android:id="@+id/uyeolpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_privacy"
+        android:drawableTint="#DD0D0D"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="@+id/uyeoltelefon"
+        app:layout_constraintTop_toBottomOf="@+id/uyeoltelefon" />
+
+    <EditText
+        android:id="@+id/uyeolsoyisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:drawableStart="@drawable/ic_article"
+        android:drawableTint="#DD0D0D"
+        android:ems="10"
+        android:hint="Soyisim"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="@+id/uyeolisim"
+        app:layout_constraintTop_toBottomOf="@+id/uyeolisim" />
+
+    <EditText
+        android:id="@+id/uyeoltelefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawableTint="#DD0D0D"
+        android:ems="10"
+        android:hint="Telefon No"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="@+id/uyeolemail"
+        app:layout_constraintTop_toBottomOf="@+id/uyeolemail" />
+
+    <Button
+        android:id="@+id/kayıtyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/kayitbutton"
+        android:onClick="kayıtislemi"
+        android:text="Üye Ol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyeolpassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

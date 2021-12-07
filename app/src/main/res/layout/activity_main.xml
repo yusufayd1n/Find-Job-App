@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitywallpaper2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="153dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Email Adresinizi Giriniz"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        app:layout_constraintBottom_toTopOf="@+id/passwordtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="Şifrinizi Giriniz"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        app:layout_constraintBottom_toTopOf="@+id/girisbutton"
+        app:layout_constraintEnd_toEndOf="@+id/emailtext"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <Button
+        android:id="@+id/girisbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/girisbutton"
+        android:onClick="giris"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/kayıtbutton"
+        app:layout_constraintEnd_toEndOf="@+id/kayıtbutton"
+        app:layout_constraintStart_toStartOf="@+id/kayıtbutton"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <Button
+        android:id="@+id/kayıtbutton"
+        android:layout_width="118dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="209dp"
+        android:background="@drawable/kayitbutton"
+        android:onClick="kayıt"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

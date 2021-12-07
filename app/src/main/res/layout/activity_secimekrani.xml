@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secimekraniwallpaper"
+    tools:context=".Secimekrani">
+
+    <Button
+        android:id="@+id/ilanverbutton"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/secimekrani_button2"
+        android:onClick="isilaniver"
+        android:text="İş İlanı Ver"
+        app:layout_constraintBottom_toTopOf="@+id/ilansilbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilanbutton" />
+
+    <Button
+        android:id="@+id/ilanbutton"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/isilanibutton"
+        android:onClick="isilanigörüntüle"
+        android:text="İş İlanları"
+        app:layout_constraintBottom_toTopOf="@+id/ilanverbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cıkısbutton"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="201dp"
+        android:background="@drawable/secimekrani_button3"
+        android:onClick="cıkısyap"
+        android:text="Çıkış Yap"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilansilbutton" />
+
+    <Button
+        android:id="@+id/ilansilbutton"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/secimekrani_button"
+        android:onClick="isilanısil"
+        android:text="İş İlanını Yayından Kaldır"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/cıkısbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilanverbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

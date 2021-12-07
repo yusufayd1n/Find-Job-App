@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">İş ve İşci Bul</string>
+    <string-array name="Şehirler">
+        <item>Adana</item>
+        <item>Adiyaman</item>
+        <item>Afyonkarahisar</item>
+        <item>Agri</item>
+        <item>Aksaray</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Ardahan</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balikesir</item>
+        <item>Bartin</item>
+        <item>Batman</item>
+        <item>Bayburt</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Canakkale</item>
+        <item>Cankırı</item>
+        <item>Corum</item>
+        <item>Denizli</item>
+        <item>Diyarbakir</item>
+        <item>Düzce</item>
+        <item>Edirne</item>
+        <item>Elazıg</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskisehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüshane</item>
+        <item>Hakkari</item>
+        <item>Hatay</item>
+        <item>Igdir</item>
+        <item>Isparta</item>
+        <item>Istanbul</item>
+        <item>Izmir</item>
+        <item>Kahramanmaras</item>
+        <item>Karabük</item>
+        <item>Karaman</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kilis</item>
+        <item>Kirikkale</item>
+        <item>Kirklareli</item>
+        <item>Kirsehir</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Mardin</item>
+        <item>Mersin</item>
+        <item>Mugla</item>
+        <item>Mus</item>
+        <item>Nevsehir</item>
+        <item>Nigde</item>
+        <item>Ordu</item>
+        <item>Osmaniye</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Sanliurfa</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Sırnak</item>
+        <item>Tekirdag</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Usak</item>
+        <item>Van</item>
+        <item>Yalova</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+    </string-array>
+    <string-array name="Kategoriler">
+        <item>Adalet ve Güvenlik</item>
+        <item>Ağaç İşleri, Kağıt ve Kağıt Ürünleri</item>
+        <item>Bilişim Teknolojileri</item>
+        <item>Cam, Çimento ve Toprak</item>
+        <item>Çevre</item>
+        <item>Eğitim</item>
+        <item>Elektrik ve Elektronik</item>
+        <item>Enerji</item>
+        <item>Finans</item>
+        <item>Gıda</item>
+        <item>Kimya, Petrol, Lastik ve Plastik</item>
+        <item>Kültür, Sanat ve Tasarım</item>
+        <item>Maden</item>
+        <item>Medya, İletişim ve Yayıncılık</item>
+        <item>Metal</item>
+        <item>Otomotiv</item>
+        <item>Sağlık ve Sosyal Hizmetler</item>
+        <item>Spor ve Rekreasyon</item>
+        <item>Tarım, Avcılık ve Balıkçılık</item>
+        <item>Tekstil, Hazır Giyim, Deri</item>
+        <item>Ticaret (Satış ve Pazarlama)</item>
+        <item>Toplumsal ve Kişisel Hizmetler</item>
+        <item>Turizm, Konaklama, Yiyecek-İçecek Hizmetleri</item>
+        <item>Ulaştırma, Lojistik ve Haberleşme</item>
+    </string-array>
+    <string name="basvuru_title">İlana Başvurmak İstediğinize Emin misiniz?</string>
+    <string name="silme_title">Bu ilani yayından kaldırmak istediğinize emin misiniz?</string>
+    <string name="silme_text">Bu ilani yayından kaldırırsanız bu ilana artık kimse başvuramaz gerçekten bunu yapmak istiyor musunuz?</string>
+    <string name="basvuran_title">İlanınıza Başvuranlar</string>
+
+    <string name="basvuru_text">Bu ilana başvurmak istiyor musunuz? Başvurmanız Halinde Sisteme Yüklemiş Olduğunuz CVniz İş Sahibine Gösterilecektir.</string>
+    <string name="Evet">Evet</string>
+    <string name="Hayır">Hayır</string>
+    <string name="Evet2">CVye Göz At</string>
+    <string name="Hayır2">Daha Sonra Hatırlat</string>
+</resources>
